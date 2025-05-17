@@ -1,0 +1,11 @@
+name: fastembed-onnx-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - fastembed==0.6.1
+      - onnxruntime
+      - pandas
+      - numpy
